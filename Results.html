@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "style.css" rel = "stylesheet" type = "text/css" />
+    <link rel="absolute-URI" type="application/json" href="static/language-codes.json">
+	<title>Text Mining Final Project Results</title>
+</head>
+<body>			
+  	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Data</th>
+			</tr>
+		</thead>
+		<tbody>
+	  </tbody>
+	</table>
+	<script>
+		var data = {'1965': {0.45683510638297875: ['know', 'dont', 'like', 'baby', 'want']}, '1966': {0.4582195652173913: ['baby', 'youre', 'dont', 'like', 'little', 'come', 'time', 'girl', 'need']}, '1967': {0.48981473684210525: ['love', 'dont', 'know', 'youre', 'come', 'like', 'baby', 'time']}, '1968': {0.47852934782608697: ['know', 'like', 'youre', 'come', 'dont', 'baby']}, '1969': {0.55897: ['girl', 'youre', 'know', 'need', 'come', 'want', 'time', 'tell', 'like', 'thing', 'baby']}, '1970': {0.5111989473684211: ['time', 'gonna', 'thing', 'like', 'yeah', 'youre', 'come', 'baby', 'dont', 'away']}, '1971': {0.5087229885057472: ['tell', 'said', 'time', 'come', 'like']}, '1972': {0.4150806818181818: ['know', 'dont', 'like', 'time', 'tell']}, '1973': {0.35308541666666665: ['love', 'come', 'dont', 'yeah', 'time', 'right', 'hand', 'thing', 'cause', 'tell']}, '1974': {0.5674010869565217: ['dont', 'time', 'like', 'baby', 'come', 'feel', 'know']}, '1975': {0.4820032258064516: ['know', 'dont', 'youre', 'like', 'love', 'right', 'night', 'time']}, '1976': {0.6237621052631579: ['yeah', 'know', 'come', 'cause', 'time', 'youre', 'baby', 'like', 'dont', 'away']}, '1977': {0.6148164835164835: ['dont', 'time', 'night', 'like', 'eye', 'know', 'feel']}, '1978': {0.5786358695652174: ['know', 'dont', 'feel', 'night', 'like', 'cause', 'heart', 'youre', 'time', 'baby']}, '1979': {0.5243597826086956: ['time', 'like', 'youre', 'wont', 'dont', 'want', 'come', 'feel', 'night', 'cause', 'baby']}, '1980': {0.6542204301075268: ['night', 'right', 'baby', 'youre', 'want', 'come', 'time', 'there']}, '1981': {0.5291271739130435: ['time', 'need', 'cause', 'like', 'want', 'tell', 'youre', 'heart']}, '1982': {0.5541351063829787: ['yeah', 'come', 'like', 'dont', 'night', 'time', 'baby', 'want', 'youre', 'heart', 'life', 'youve']}, '1983': {0.4275408163265306: ['like', 'dont', 'heart', 'come', 'need', 'want', 'youre']}, '1984': {0.4027484536082474: ['dont', 'heart', 'right', 'cause', 'baby', 'like', 'love', 'night', 'thats', 'time', 'want', 'need', 'feel', 'youre', 'come']}, '1985': {0.44185151515151516: ['youre', 'time', 'cause', 'feel', 'away', 'tell', 'baby', 'thing', 'want', 'like', 'dont', 'night', 'come', 'yeah', 'need']}, '1986': {0.4798957894736842: ['youre', 'heart', 'night', 'time', 'thing', 'yeah', 'there', 'come', 'feel', 'baby', 'right', 'life', 'like', 'dont', 'want']}, '1987': {0.4422173469387755: ['time', 'like', 'heart', 'gonna', 'life', 'feel', 'want', 'youre']}, '1988': {0.49397938144329895: ['feel', 'heart', 'want', 'youre', 'need', 'hold', 'like', 'night', 'baby', 'tell', 'look']}, '1989': {0.517605: ['want', 'baby', 'youre', 'come', 'cause', 'tell', 'think', 'thats', 'heart', 'feel', 'need', 'yeah', 'away', 'right', 'time']}, '1990': {0.4972333333333333: ['time', 'feel', 'heart', 'night', 'cause', 'youre', 'girl', 'like', 'tell', 'baby', 'yeah', 'right', 'come']}, '1991': {0.6378288659793815: ['heart', 'baby', 'think', 'yeah', 'cause', 'mind', 'youre', 'feel', 'away', 'there', 'good']}, '1992': {0.5077469387755102: ['want', 'night', 'youre', 'yeah', 'cause', 'feel', 'come', 'life', 'heart', 'thing']}, '1993': {0.4072530612244898: ['baby', 'want', 'heart', 'youre', 'feel', 'cause', 'come', 'right', 'tell', 'mind', 'thats', 'thing', 'yeah', 'little']}, '1994': {0.3773521276595745: ['like', 'come', 'night', 'youre', 'thats', 'yeah', 'time', 'thing', 'cause', 'feel']}, '1995': {0.5220536842105263: ['baby', 'think', 'want', 'need', 'feel', 'youre', 'thing', 'aint', 'yeah', 'right', 'cause', 'thats']}, '1996': {0.6062351648351648: ['baby', 'time', 'youre', 'aint', 'right', 'feel', 'come', 'night', 'cause', 'want', 'yeah', 'gonna', 'thing', 'need']}, '1997': {0.5877054347826087: ['wanna', 'baby', 'cause', 'girl', 'need', 'feel', 'time', 'yeah', 'youre', 'thing', 'come', 'right', 'want']}, '1998': {0.28672631578947366: ['yeah', 'girl', 'need', 'want', 'time', 'youre', 'tell', 'wanna', 'thing', 'come', 'cause', 'said', 'wont', 'right', 'life', 'aint', 'thats', 'night', 'heart', 'feel']}, '1999': {0.3718855670103093: ['wanna', 'there', 'thing', 'time', 'heart', 'life', 'gonna', 'feel', 'aint', 'want', 'tell', 'yeah', 'need', 'right', 'night', 'good', 'come', 'think', 'world']}, '2000': {0.5276131313131314: ['baby', 'youre', 'want', 'come', 'cause', 'aint', 'life', 'yeah', 'night', 'time', 'thats', 'thing', 'think', 'wanna']}, '2001': {0.35603367346938775: ['come', 'look', 'thing', 'right', 'feel', 'want', 'girl', 'need', 'gotta', 'youre', 'aint', 'long', 'thats', 'yeah', 'leave', 'wanna']}, '2002': {0.466359595959596: ['baby', 'aint', 'want', 'cause', 'tell', 'yeah', 'feel', 'come', 'thing', 'good', 'time', 'girl', 'friend', 'wanna', 'night', 'thats', 'right', 'gonna', 'hold', 'life']}, '2003': {0.4034907216494845: ['baby', 'aint', 'yeah', 'come', 'wanna', 'night', 'life', 'need', 'look', 'world', 'thats', 'thing', 'good', 'wont', 'right', 'hand', 'youre', 'mind']}, '2004': {0.33298877551020406: ['baby', 'come', 'wanna', 'tell', 'time', 'night', 'aint', 'need', 'thats', 'think', 'yeah', 'right', 'youre', 'feel', 'thing', 'said']}, '2005': {0.3509795918367347: ['love', 'gotta', 'baby', 'aint', 'right', 'gonna', 'heart', 'feel', 'youre', 'yeah', 'come', 'thats', 'think', 'thing', 'life', 'mind', 'wanna', 'look', 'tell', 'want']}, '2006': {0.3394041666666667: ['need', 'right', 'gotta', 'love', 'baby', 'feel', 'thing', 'girl', 'wanna', 'tell', 'come', 'youre', 'yeah', 'talk', 'aint', 'think', 'thats', 'look', 'hand', 'stop']}, '2007': {0.3140684210526316: ['feel', 'need', 'baby', 'tell', 'wanna', 'night', 'yeah', 'thats', 'stop', 'youre', 'think', 'gonna', 'wont', 'come', 'look', 'thing', 'aint']}, '2008': {0.45559484536082473: ['thing', 'aint', 'come', 'girl', 'need', 'think', 'world', 'thats', 'baby', 'right', 'youre', 'want', 'wanna', 'tell', 'gonna', 'feel', 'yeah', 'there']}, '2009': {0.4344185567010309: ['baby', 'girl', 'yeah', 'cause', 'need', 'tell', 'come', 'night', 'wanna', 'right', 'life', 'aint', 'gotta', 'gonna', 'feel', 'youre', 'thats', 'thing', 'mind', 'time']}, '2010': {0.5101606060606061: ['baby', 'wanna', 'come', 'girl', 'feel', 'thing', 'cause', 'think', 'gonna', 'good', 'aint', 'youre', 'thats', 'night', 'hand', 'life', 'yeah', 'tell']}, '2011': {0.527497: ['baby', 'feel', 'tell', 'aint', 'right', 'come', 'love', 'think', 'girl', 'time', 'want', 'youre', 'night', 'need', 'light', 'life', 'gotta', 'wanna', 'turn', 'gonna']}, '2012': {0.33168673469387755: ['girl', 'aint', 'yeah', 'cause', 'want', 'love', 'right', 'away', 'baby', 'let', 'need', 'wanna']}, '2013': {0.2600877551020408: ['youre', 'baby', 'love', 'need', 'want', 'cause', 'yeah', 'hold', 'time', 'look', 'night', 'wanna', 'thats', 'girl', 'feel']}, '2014': {0.326659595959596: ['aint', 'yeah', 'thats', 'want', 'cause', 'wanna', 'right', 'come', 'love', 'baby', 'tell', 'time', 'feel', 'youre']}, '2015': {0.27285408163265307: ['wanna', 'need', 'love', 'tell', 'want', 'come', 'aint', 'baby', 'good', 'yeah', 'time', 'thats', 'night', 'youre', 'look', 'home', 'pie', 'honey', 'bunch', 'downtown', 'lights', 'troubles', 'help', 'heart', 'eye', 'means', 'man', 'king', 'papas', 'drag', 'brand']}};
+		for (var key in data)
+		{
+			console.log(key);
+			table = document.getElementsByTagName("TBODY")[0];
+			row = document.createElement("tr");
+			col1 = document.createElement("td");
+			col2 = document.createElement("td");
+			table.appendChild(row);
+			row.appendChild(col1);
+			row.appendChild(col2);
+			col1.innerHTML = key;
+			var yearData = data[key];
+			for(var sent in yearData)
+			{
+				col2.innerHTML = "Sentiment Score: " + sent + "<br>" +
+				"Words identified by NER and LDA: " + data[key][sent];
+			}
+		}
+	</script>
+</body>
+</html>
+
+
