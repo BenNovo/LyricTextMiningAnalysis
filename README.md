@@ -7,4 +7,4 @@ Junior year text mining abroad class final project: Analyzed the Billboard Hot 1
 
 3: Named Entity Recognition: Looking at the annual topic with the most songs, the top 3 most frequently used nouns were selected from each song in the topic.
 
-While it would have been great to find a concrete link between annual sentiments/popular topics and current events in the Billboard Hot 100, most songs were about common popular music topics like love, sex, and relationships.
+While it would have been great to find a concrete link between annual sentiments/popular topics and current events, most songs were about common popular music topics like love, sex, and relationships.
